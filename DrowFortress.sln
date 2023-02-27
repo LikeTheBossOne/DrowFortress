@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{123406B4-7E41-349A-0728-308573340051}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{6695C55D-524D-07AB-BB54-E006A72BA29B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DrowFortress", "DrowFortress\DrowFortress.vcxproj", "{79BDDDAF-6520-6D54-0EA6-A50AFAE738D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Premake", "Premake", "{F1827A71-5D43-F6A7-267E-3F2592FD3A84}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Premake", "vendor\premake\Premake.vcxproj", "{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79BDDDAF-6520-6D54-0EA6-A50AFAE738D7}.Debug|x64.ActiveCfg = Debug|x64
+		{79BDDDAF-6520-6D54-0EA6-A50AFAE738D7}.Debug|x64.Build.0 = Debug|x64
+		{79BDDDAF-6520-6D54-0EA6-A50AFAE738D7}.Release|x64.ActiveCfg = Release|x64
+		{79BDDDAF-6520-6D54-0EA6-A50AFAE738D7}.Release|x64.Build.0 = Release|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|x64.ActiveCfg = Debug|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Debug|x64.Build.0 = Debug|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|x64.ActiveCfg = Release|x64
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79BDDDAF-6520-6D54-0EA6-A50AFAE738D7} = {6695C55D-524D-07AB-BB54-E006A72BA29B}
+		{6ACC3F23-D6AB-BEBE-DFC3-49954B222520} = {F1827A71-5D43-F6A7-267E-3F2592FD3A84}
+	EndGlobalSection
+EndGlobal
