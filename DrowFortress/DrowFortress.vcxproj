@@ -102,7 +102,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Drawables\TileMap.cpp" />
+    <ClCompile Include="src\Game.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Systems\WorldInputSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Components\DrawComponent.h" />
+    <ClInclude Include="src\Components\InputComponent.h" />
+    <ClInclude Include="src\Components\MovementSpeedComponent.h" />
+    <ClInclude Include="src\Components\RectangleColliderComponent.h" />
+    <ClInclude Include="src\Components\RelationshipsComponent.h" />
+    <ClInclude Include="src\Components\TransformComponent.h" />
+    <ClInclude Include="src\Core.h" />
+    <ClInclude Include="src\Drawables\TileMap.h" />
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Systems\WorldInputSystem.h" />
+    <ClInclude Include="src\World\WorldLevel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
